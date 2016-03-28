@@ -19,11 +19,11 @@
  */
 
 pressureTeam::pressureTeam(double inputPressure) {
-    pressureLevel = inputPressure;
+    pressureLevel = inputPressure / 2;
 }
 
 void pressureTeam::setPressure(double pressureSet) {
-    pressureLevel = pressureSet;
+    pressureLevel = pressureSet / 2;
 }
 
 double pressureTeam::getPressure(void) {
