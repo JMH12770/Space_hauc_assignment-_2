@@ -10,8 +10,8 @@
  * using 3 different methods/constructors.
  */
 
-#ifndef _HOME_DOMINIC_DESKTOP_C___TESTASSIGNMENT_POWERTEAM_H_
-#define _HOME_DOMINIC_DESKTOP_C___TESTASSIGNMENT_POWERTEAM_H_
+#ifndef POWERTEAM_H_
+#define POWERTEAM_H_
 
 class powerTeam {
  public:
@@ -31,4 +31,4 @@ class powerTeam {
     double powerLevel;
 };
 
-#endif  // _HOME_DOMINIC_DESKTOP_C___TESTASSIGNMENT_POWERTEAM_H_
+#endif  // POWERTEAM_H_

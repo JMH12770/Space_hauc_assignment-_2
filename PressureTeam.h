@@ -10,8 +10,8 @@
  * using 3 different methods/constructors.
  */
 
-#ifndef _HOME_DOMINIC_DESKTOP_C___TESTASSIGNMENT_PRESSURETEAM_H_
-#define _HOME_DOMINIC_DESKTOP_C___TESTASSIGNMENT_PRESSURETEAM_H_
+#ifndef PRESSURETEAM_H_
+#define PRESSURETEAM_H_
 
 class pressureTeam {
  public:
@@ -31,4 +31,4 @@ class pressureTeam {
     double pressureLevel;
 };
 
-#endif  // _HOME_DOMINIC_DESKTOP_C___TESTASSIGNMENT_PRESSURETEAM_H_
+#endif  // PRESSURETEAM_H_

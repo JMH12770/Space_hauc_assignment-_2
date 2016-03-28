@@ -4,10 +4,10 @@
 
 // Copyright Dominic Sears
 
-#include "unistd.h"
-#include "PowerTeam.h"
-#include "PressureTeam.h"
 #include <iostream>
+#include "./unistd.h"
+#include "./PowerTeam.h"
+#include "./PressureTeam.h"
 
 int x;
 int y;
@@ -44,7 +44,7 @@ int main(int argc, char* argv[]) {
 
     std::cout << "Please enter a new Power Level: ";
     std::cin >> x;
-    
+
     /*!
      * Checks to see if the entered number is between 0 and 20,
      * returning an error if it is false, but continuing the 
