@@ -26,7 +26,7 @@ int main(int argc, char* argv[]) {
  * with it being defined as the current power level for block.
  */
     powerTeam block(10.2);
-    pressureTeam cube(block.getPower()/2);
+    pressureTeam cube(block.getPower());
 /*!
  * @param block.getPower Outputs the current power level for block.
  * 
@@ -50,11 +50,10 @@ int main(int argc, char* argv[]) {
      * returning an error if it is false, but continuing the 
      * program if true.
      */
-    if (0 > x) {
-        std::cout << "ERROR: Not a valid Power Level; must be 0-20" << std::endl; }
-
-    if (x > 20) {
-        std::cout << "ERROR: Not a valid Power Level; must be 0-20" << std::endl; }
+    while (x < 0 || x > 20) {
+        std::cout << "ERROR: Not a valid Power Level; must be 0-20: ";
+        std::cin >> x;
+    }
 
     block.setPower(x);
     std::cout << "New Power level of Block: " << block.getPower() << "\n";
