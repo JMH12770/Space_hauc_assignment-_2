@@ -11,10 +11,9 @@
  *
  * @param inputPower the default power level to be set.
  */
-powerTeam::powerTeam(double inputPower)
-{
+powerTeam::powerTeam(double inputPower) {
     powerLevel = inputPower;
-} 
+}
 
 /*!
  * Sets a new power level for the powerTeam object
