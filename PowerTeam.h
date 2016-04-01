@@ -4,8 +4,8 @@
 
 // Copyright Dominic Sears
 
-#ifndef POWERTEAM_H_
-#define POWERTEAM_H_
+#ifndef POWERTEAM_H
+#define POWERTEAM_H
 
 /*!
  * The PowerTeam class inputs the power level
@@ -21,4 +21,4 @@ class powerTeam {
     double powerLevel;
 };
 
-#endif  // POWERTEAM_H_
+#endif  // POWERTEAM_H
