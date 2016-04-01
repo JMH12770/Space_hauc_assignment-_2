@@ -7,25 +7,30 @@
 #include "./PressureTeam.h"
 
  /*!
- * Creates 3 functions that set, return, and replace the current
- * pressure level.
- *
- * @param pressureTeam Function sets the input as the pressure level.
- *
- * @param setPressure Function sets the new or initial pressure level.
- *
- * @param getPressure Function returns the pressure level as its current
- * double.
- */
-
+  * Creates a new pressureTeam object with a default pressureLevel
+  * of half the input.
+  *
+  * @param inputPressure the default pressure level to be set.
+  */
 pressureTeam::pressureTeam(double inputPressure) {
     pressureLevel = inputPressure / 2;
 }
 
+/*!
+ * Sets a new pressure level for the pressureTeam object of
+ * half the input.
+ *
+ * @param pressureSet the new pressure level to be stored by the object
+ */
 void pressureTeam::setPressure(double pressureSet) {
     pressureLevel = pressureSet / 2;
 }
 
+/*!
+ * Retrieves the pressure Level.
+ *
+ * @return the pressure level stored by the pressureTeam object
+ */
 double pressureTeam::getPressure(void) {
     return pressureLevel;
 }

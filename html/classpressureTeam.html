@@ -103,7 +103,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab2cbe6ffd173d2129338dc898a956e75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The PressureTeam class inputs the pressure level of the object, sets the pressure level, and returns the pressure level using 3 different methods/constructors. </p>
+<div class="textblock"><p>The PressureTeam class inputs the pressure level of the object, sets the pressure level, and returns the pressure level. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="aead922105f964509d8b3d97777c67b23"></a>
 <div class="memitem">
@@ -126,13 +126,10 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Receives the input Pressure for the Pressure Level.</p>
-<p>Creates 3 functions that set, return, and replace the current pressure level.</p>
+<p>Creates a new <a class="el" href="classpressureTeam.html">pressureTeam</a> object with a default pressureLevel of half the input.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname"><a class="el" href="classpressureTeam.html">pressureTeam</a></td><td>Function sets the input as the pressure level.</td></tr>
-    <tr><td class="paramname">setPressure</td><td>Function sets the new or initial pressure level.</td></tr>
-    <tr><td class="paramname">getPressure</td><td>Function returns the pressure level as its current double. </td></tr>
+    <tr><td class="paramname">inputPressure</td><td>the default pressure level to be set. </td></tr>
   </table>
   </dd>
 </dl>
@@ -153,7 +150,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Retrieves the Pressure Level, as well as sets the initial PL as nothing. </p>
+<p>Retrieves the pressure Level.</p>
+<dl class="section return"><dt>Returns</dt><dd>the pressure level stored by the <a class="el" href="classpressureTeam.html">pressureTeam</a> object </dd></dl>
 
 </div>
 </div>
@@ -170,7 +168,13 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Sets the stated double as the Pressure Level. </p>
+<p>Sets a new pressure level for the <a class="el" href="classpressureTeam.html">pressureTeam</a> object of half the input.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pressureSet</td><td>the new pressure level to be stored by the object </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

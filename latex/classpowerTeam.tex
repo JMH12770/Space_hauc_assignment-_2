@@ -16,7 +16,7 @@ double \hyperlink{classpowerTeam_af852d6dee34551aacf667197c7c76995}{get\+Power} 
 
 
 \subsection{Detailed Description}
-The Power\+Team class inputs the power level of the object, sets the power level, and returns the power level using 3 different methods/constructors. 
+The Power\+Team class inputs the power level of the object, sets the power level, and returns the power level. 
 
 \subsection{Constructor \& Destructor Documentation}
 \hypertarget{classpowerTeam_ad356b335dee83b49b76270c30e4f5524}{}\index{power\+Team@{power\+Team}!power\+Team@{power\+Team}}
@@ -26,17 +26,11 @@ The Power\+Team class inputs the power level of the object, sets the power level
 \item[{double}]{input\+Power}
 \end{DoxyParamCaption}
 )\hspace{0.3cm}{\ttfamily [explicit]}}\label{classpowerTeam_ad356b335dee83b49b76270c30e4f5524}
-Receives the input Power for the Power Level.
-
-Creates 3 functions that set, return, and replace the current power level.
+Creates a new \hyperlink{classpowerTeam}{power\+Team} object with a default power level
 
 
 \begin{DoxyParams}{Parameters}
-{\em \hyperlink{classpowerTeam}{power\+Team}} & Function sets the input as the power level.\\
-\hline
-{\em set\+Power} & Function sets the new or initial power level.\\
-\hline
-{\em get\+Power} & Function returns the power level as its current double. \\
+{\em input\+Power} & the default power level to be set. \\
 \hline
 \end{DoxyParams}
 
@@ -49,14 +43,26 @@ Creates 3 functions that set, return, and replace the current power level.
 \item[{void}]{}
 \end{DoxyParamCaption}
 )}\label{classpowerTeam_af852d6dee34551aacf667197c7c76995}
-Retrieves the Power Level, as well as sets the initial P\+L as nothing. \hypertarget{classpowerTeam_a7d028a9f95d8d6e8b8045b8252f793cd}{}\index{power\+Team@{power\+Team}!set\+Power@{set\+Power}}
+Retrieves the Power Level.
+
+\begin{DoxyReturn}{Returns}
+the power level stored by the \hyperlink{classpowerTeam}{power\+Team} object 
+\end{DoxyReturn}
+\hypertarget{classpowerTeam_a7d028a9f95d8d6e8b8045b8252f793cd}{}\index{power\+Team@{power\+Team}!set\+Power@{set\+Power}}
 \index{set\+Power@{set\+Power}!power\+Team@{power\+Team}}
 \subsubsection[{set\+Power}]{\setlength{\rightskip}{0pt plus 5cm}void power\+Team\+::set\+Power (
 \begin{DoxyParamCaption}
 \item[{double}]{power\+Set}
 \end{DoxyParamCaption}
 )}\label{classpowerTeam_a7d028a9f95d8d6e8b8045b8252f793cd}
-Sets the stated double as the Power Level. 
+Sets a new power level for the \hyperlink{classpowerTeam}{power\+Team} object
+
+
+\begin{DoxyParams}{Parameters}
+{\em power\+Set} & the new power level to be stored by the object \\
+\hline
+\end{DoxyParams}
+
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 

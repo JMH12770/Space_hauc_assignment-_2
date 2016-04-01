@@ -16,7 +16,7 @@ double \hyperlink{classpressureTeam_ab2cbe6ffd173d2129338dc898a956e75}{get\+Pres
 
 
 \subsection{Detailed Description}
-The Pressure\+Team class inputs the pressure level of the object, sets the pressure level, and returns the pressure level using 3 different methods/constructors. 
+The Pressure\+Team class inputs the pressure level of the object, sets the pressure level, and returns the pressure level. 
 
 \subsection{Constructor \& Destructor Documentation}
 \hypertarget{classpressureTeam_aead922105f964509d8b3d97777c67b23}{}\index{pressure\+Team@{pressure\+Team}!pressure\+Team@{pressure\+Team}}
@@ -26,17 +26,11 @@ The Pressure\+Team class inputs the pressure level of the object, sets the press
 \item[{double}]{input\+Pressure}
 \end{DoxyParamCaption}
 )\hspace{0.3cm}{\ttfamily [explicit]}}\label{classpressureTeam_aead922105f964509d8b3d97777c67b23}
-Receives the input Pressure for the Pressure Level.
-
-Creates 3 functions that set, return, and replace the current pressure level.
+Creates a new \hyperlink{classpressureTeam}{pressure\+Team} object with a default pressure\+Level of half the input.
 
 
 \begin{DoxyParams}{Parameters}
-{\em \hyperlink{classpressureTeam}{pressure\+Team}} & Function sets the input as the pressure level.\\
-\hline
-{\em set\+Pressure} & Function sets the new or initial pressure level.\\
-\hline
-{\em get\+Pressure} & Function returns the pressure level as its current double. \\
+{\em input\+Pressure} & the default pressure level to be set. \\
 \hline
 \end{DoxyParams}
 
@@ -49,14 +43,26 @@ Creates 3 functions that set, return, and replace the current pressure level.
 \item[{void}]{}
 \end{DoxyParamCaption}
 )}\label{classpressureTeam_ab2cbe6ffd173d2129338dc898a956e75}
-Retrieves the Pressure Level, as well as sets the initial P\+L as nothing. \hypertarget{classpressureTeam_a39f63bded141617b7a36258ebfa4caa5}{}\index{pressure\+Team@{pressure\+Team}!set\+Pressure@{set\+Pressure}}
+Retrieves the pressure Level.
+
+\begin{DoxyReturn}{Returns}
+the pressure level stored by the \hyperlink{classpressureTeam}{pressure\+Team} object 
+\end{DoxyReturn}
+\hypertarget{classpressureTeam_a39f63bded141617b7a36258ebfa4caa5}{}\index{pressure\+Team@{pressure\+Team}!set\+Pressure@{set\+Pressure}}
 \index{set\+Pressure@{set\+Pressure}!pressure\+Team@{pressure\+Team}}
 \subsubsection[{set\+Pressure}]{\setlength{\rightskip}{0pt plus 5cm}void pressure\+Team\+::set\+Pressure (
 \begin{DoxyParamCaption}
 \item[{double}]{pressure\+Set}
 \end{DoxyParamCaption}
 )}\label{classpressureTeam_a39f63bded141617b7a36258ebfa4caa5}
-Sets the stated double as the Pressure Level. 
+Sets a new pressure level for the \hyperlink{classpressureTeam}{pressure\+Team} object of half the input.
+
+
+\begin{DoxyParams}{Parameters}
+{\em pressure\+Set} & the new pressure level to be stored by the object \\
+\hline
+\end{DoxyParams}
+
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 

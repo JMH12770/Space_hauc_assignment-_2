@@ -7,25 +7,28 @@
 #include "./PowerTeam.h"
 
 /*!
- * Creates 3 functions that set, return, and replace the current
- * power level.
+ * Creates a new powerTeam object with a default power level
  *
- * @param powerTeam Function sets the input as the power level.
- *
- * @param setPower Function sets the new or initial power level.
- *
- * @param getPower Function returns the power level as its current
- * double.
+ * @param inputPower the default power level to be set.
  */
-
 powerTeam::powerTeam(double inputPower) {
     powerLevel = inputPower;
 }
 
+/*!
+ * Sets a new power level for the powerTeam object
+ *
+ * @param powerSet the new power level to be stored by the object
+ */
 void powerTeam::setPower(double powerSet) {
     powerLevel = powerSet;
 }
 
+/*!
+ * Retrieves the Power Level.
+ *
+ * @return the power level stored by the powerTeam object
+ */
 double powerTeam::getPower(void) {
     return powerLevel;
 }
