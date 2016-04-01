@@ -17,7 +17,7 @@ class pressureTeam {
     void setPressure(double pressureSet);
     double getPressure(void);
  private:
-   /*! The pressure level stored by the current object */
+    /*! The pressure level stored by the current object */
     double pressureLevel;
 };
 

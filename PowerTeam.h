@@ -17,7 +17,7 @@ class powerTeam {
     void setPower(double powerSet);
     double getPower(void);
  private:
-   /*! The current power level stored by the object */
+    /*! The current power level stored by the object */
     double powerLevel;
 };
 
